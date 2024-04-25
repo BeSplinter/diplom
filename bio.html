@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <title>Биография Михаила Горшенева</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header"></div>
+    <h1>Биография Михаила Горшенева</h1>
+    <div class="container-fluid">
+        <div class="row">
+    <div class="col-sm-2">
+      <div class="btn-group-vertical">
+<button type="button" class="btn btn-outline-secondary"><a href="/Gorshok/bio/early.html">Детство и юность Миши</a></button>
+  <button type="button" class="btn btn-outline-secondary"><a href="/Gorshok/bio/family.html">Семья</a></button>
+  <button type="button" class="btn btn-outline-secondary"><a href="/Gorshok/bio/createway.html">Творческий путь</a></button>
+</div>
+    </div>
+    <div class="col-sm-4">
+      <img src="/Gorshok/img/smail.jpg" class="img-fluid" alt="smail">
+    </div>
+    <div class="col-sm-6">
+      <p class = "bio">
+        <p>Михаи́л Ю́рьевич Горшенёв (7 августа 1973, Пикалёво, Ленинградская область, СССР — 19 июля 2013, Санкт-Петербург, Россия), также известный как Горшок, — советский и российский рок-музыкант, композитор, поэт, актёр. Основатель, один из двух фронтменов и вокалистов (вместе с Андреем Князевым) панк-рок-группы «Король и Шут». Автор большей части музыки и некоторых текстов группы.
+                  </p>
+ <p>В 2011—2013 годах — один из создателей и исполнитель главной роли Суинни Тодда в рок-мюзикле TODD.</p>
+<p>Старший брат лидера рок-групп «Кукрыниксы» и «Горшенёв» Алексея Горшенёва.</p> </p>
+    </div>
+  </div>
+    </div>
+       </div>
+    <script>
+      // Header
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((html) => (document.getElementById("header").innerHTML = html));
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
